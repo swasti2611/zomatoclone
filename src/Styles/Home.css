@@ -1,0 +1,286 @@
+
+   *{
+    box-sizing: border-box;
+    font-family: poppins;
+} 
+
+
+
+
+ .image{
+     
+     object-fit: cover;
+
+ }
+ .content-1{
+     position: absolute;
+     top: 45%;
+    left: 2%;
+ }
+
+ 
+ .secondlogo{
+     height: 70px;
+     width: 70px !important;
+     border: 1px black solid;
+     margin-left: 48%;
+     font-size: 43px;
+     font-weight: 600px;
+     font-style: normal;
+     background-color:white;
+     color:red;
+     border-radius: 50%;
+     text-align: center;
+     padding: 2px;
+     margin-top: -7%;
+
+
+ }
+ .Find-the-best-restaurants-cafés-and-bars{
+
+        
+         font-family: Poppins;
+         font-size: 225%;
+         font-stretch: normal;
+         font-style: normal;
+         line-height: 1.40;
+         letter-spacing: normal;
+
+         color: #ffffff;
+         margin-left: 1%;
+
+
+ }
+ 
+ .icon{
+
+   left: -305px;
+ position: relative;
+ top:1px;
+ }
+ .input{
+     width: 307px;
+     height: 45px;
+     margin-left:38px;
+     background-color: #ffffff;
+     padding: 22px;
+
+
+    }
+
+
+.quick-search{
+ width: 239px;
+height: 43px;
+margin-top: 15px;
+margin-left: 130px;
+font-family: Poppins;
+font-size: 30px;
+font-weight: bold;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+text-align: left;
+color: #192f60;
+}
+.meal {
+ width: 331px;
+ height: 25px;
+ margin-top: 10px;
+ margin-left: 130px;
+ font-family: Poppins;
+ font-size: 18px;
+ font-weight: normal;
+ font-stretch: normal;
+ font-style: normal;
+ line-height: 1.5;
+ letter-spacing: normal;
+ text-align: left;
+ color: #8c96ab;
+}
+    .content-2{
+        display: inline-block;
+        margin-left: 1%;
+    }
+
+  .rect{
+     width:320px !important;
+    height: 140px ;
+    position: relative;
+
+   
+   margin-bottom: 20px;
+   display: inline-block;
+   margin: 53px;
+   
+   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+  } 
+
+.image-1{
+ height: 140px;
+ width: 160px;
+
+}
+
+
+.item-1{
+position: absolute;
+top: -8px;
+
+left: 150px;
+width: 88px;
+height: 25px;
+margin: 25px 49px 4px 29px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #192f60;
+}
+.item-2{
+position: absolute;
+width: 137px;
+height: 62px;
+top: 60px;
+left: 150px;
+margin: 4px 0 44px 29px;
+font-family: Poppins;
+font-size: 14px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #8c96ab;
+} 
+
+
+
+li{
+    list-style: none;
+    background-color: lightgray;
+
+    background-image: linear-gradient(90deg, red 20px, lightgray 10px);
+    padding: 10px 15px 10px 25px;
+    border:1px solid #ccc;
+    box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.5);
+    margin-bottom: 5px;
+    width:100%;
+    box-sizing: border-box;
+    cursor:pointer;
+    border-radius :3px;
+}
+
+
+.select{
+    
+width:280px;
+height:40px;
+color:black;
+box-sizing: border-box;
+font-size: 19px;
+padding: 5px;
+font-family: calibri light;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 3px;
+background-color: lightgray;
+color: black;
+padding-left: 29px; 
+margin-left: -75%;
+    margin-top: 2%;
+
+
+
+}
+
+.dropdown{
+    
+    width:320px;
+    height:40px;
+    color:black;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: lightgray;
+    color: black;
+    padding-left: 29px;
+    margin-left: 25%;
+    margin-top: -4px;
+   
+}
+
+
+.locationSelector {
+    position: relative;
+    top: 6px;
+    margin-left: 27.5%;
+    margin-right: 20%;
+    text-align: center;
+    height:40px;
+}
+
+#query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: lightgray;
+    color: black;
+    padding-left: 29px;
+}
+.search {
+	
+    position: absolute !important;
+    left: 100px;
+    margin: 2% 0px;
+    bottom: 30px;
+    top:30px;
+
+}
+#notebooks {
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+
+ul {
+    margin: 0 auto;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+
+#notebooks span {
+    display: block;
+    position: absolute;
+    background: #FFD32E;
+    bottom: -35px;
+    left: -1px;
+    width: 360px;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: inset 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+
